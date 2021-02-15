@@ -1,5 +1,30 @@
 body{
-    background-color:honeydew;
+    background-color:rgb(235, 235, 235);
+    color: rgb(125, 125, 125);
+    font-family:Helvetica, Arial;
+    line-height:2em;
+}
 
-    font-family:"Comic Sans MS", "Comic Sans", Arial;
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.center{
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 100px;
+    padding: 0;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 0;
 }
